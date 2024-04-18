@@ -29,16 +29,16 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Dashboard</a>
+            <a class="nav-link" href="index.html">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sponsorizzazione</a>
+            <a class="nav-link" href="sponsorizzazione.html">Sponsorizzazione</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Prodotti</a>
+            <a class="nav-link" href="prodotti.html">Prodotti</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nuovo Prodotto</a>
+            <a class="nav-link" href="nuovo-prodotto.html">Nuovo Prodotto</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Clienti</a>
@@ -66,10 +66,10 @@
 
 </div>
     
-    <div class="container-fluid p-0">
-        <div class="row">
-            <div class="col-3 d-none d-md-flex ">
-                <div class="flex-column flex-shrink-0 p-3 text-white bg-dark vh-100" style="width: 100%;">
+    <div class="container-fluid p-0 vh-100">
+        <div class="row h-100 m-0">
+            <div class="col-3 d-none d-md-flex p-0">
+                <div class="flex-column flex-shrink-0 p-3 text-white bg-dark h-100" style="width: 100%;">
                         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                           <svg class="bi me-2" width="1" height="32"><use xlink:href="#bootstrap"></use></svg>
                           <span class="fs-4">Bootstrap <br> Dashboard</span>
@@ -77,7 +77,7 @@
                         <hr>
                         <ul class="nav nav-pills flex-column flex-shrink-0">
                           <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">
+                            <a href="index.html" class="nav-link text-white" aria-current="page">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
                                     <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
                                   </svg>
@@ -87,16 +87,16 @@
                             </a>
                           </li>
                           <li>
-                            <a href="#" class="nav-link text-white">
+                            <a href="sponsorizzazione.html" class="nav-link active text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"/>
                                   </svg>
-                                <svg class="bi " width="0" height="16"><use xlink:href="#home"></use></svg>
+                                <svg class="bi " width="0" height="16"><use xlink:href="Sponsorizzazione"></use></svg>
                               Sponsorizzazione
                             </a>
                           </li>
                           <li>
-                            <a href="#" class="nav-link text-white">
+                            <a href="prodotti.html" class="nav-link text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill" viewBox="0 0 16 16">
                                     <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z"/>
                                   </svg>
@@ -106,7 +106,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="#" class="nav-link text-white">
+                            <a href="nuovo-prodotto.html" class="nav-link text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
                                   </svg>
@@ -143,10 +143,15 @@
                       </div>
 
             </div>
-            <div class="col-9 col-sx-12 p-5 m-auto">
-
-  
-
+            <div class="col-9 p-5 m-auto">
+                <div class="row">
+                  <div class="col-12">
+                    
+                    <h1 class="text-left">10 prodotti trovati</h1>
+                  </div>
+                </div>
+               
+               
             </div>
         </div>
 
